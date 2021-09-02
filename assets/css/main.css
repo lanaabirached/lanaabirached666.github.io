@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: black;
 		}
 
 		.wrapper.style1-alt {
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: black;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3533,8 +3533,9 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 15em;
 		z-index: 10000;
+
 	}
 
 		#sidebar > .inner {
@@ -3761,14 +3762,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: white;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, blue, red);
+				background-image: -webkit-linear-gradient(to right, blue, red);
+				background-image: -ms-linear-gradient(to right, blue, red);
+				background-image: linear-gradient(to right, blue, red);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3858,8 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #B7094C
+							;
 						}
 
 		}
@@ -3874,6 +3876,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
+		background-color: black;
 		background-image: url("images/intro.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
