@@ -112,45 +112,10 @@ input, select, textarea {
 	}
 
 body {
-		background: #19171a;
+		background: #3a0ca3;
 	}
 
-	body.background {
-  		position: absolute;
-  		display: block;
-  		top: 0;
-  		left: 0;
-  		z-index: 0;
-		}
-
-		window.onload = function() {
-  		Particles.init({
-    	selector: '.background'
-  		});
-		};.background {
-  		position: absolute;
-  		display: block;
-  		top: 0;
-  		left: 0;
-  		z-index: 0;
-		}
-
-		window.onload = function() {
-  		Particles.init({
-    	selector: '.background'
-  		});
-		};
-
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+	
 
 /* Type */
 
