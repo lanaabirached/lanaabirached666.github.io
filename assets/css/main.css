@@ -111,9 +111,9 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
-/*body {
+body {
 		background: #19171a;
-	}*/
+	}
 
 	body.background {
   		position: absolute;
@@ -3823,11 +3823,13 @@ input, select, textarea {
 
 			#sidebar nav a:before {
 				
-				background-image: -moz-linear-gradient(to right, transparent, white);
-				background-image: -webkit-linear-gradient(to right, transparent, white);
-				background-image: -ms-linear-gradient(to right, transparent, white);
-				background-image: linear-gradient(to right, transparent, white);
+				background-image: -moz-linear-gradient(to right, white, white);
+				background-image: -webkit-linear-gradient(to right, white, white);
+				background-image: -ms-linear-gradient(to right, white, white);
+				background-image: linear-gradient(to right, white, white);
 			}
+
+
 
 			#sidebar nav a:after {
 				background: white;
