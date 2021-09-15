@@ -1848,7 +1848,6 @@ body {
 .button {
   border-radius: 100rem;
   padding: 1rem;
-  font-family: 'Avenir Next';
   font-size: 1rem;
   padding: .5rem 3rem;
   color: $color-black;
