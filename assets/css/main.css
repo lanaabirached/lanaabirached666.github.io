@@ -1846,8 +1846,36 @@ body {
 }*/
 
 .button {
-  border-radius: 100rem;
-  padding: 1rem;
+	-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: border-color 0.2s ease;
+		-webkit-transition: border-color 0.2s ease;
+		-ms-transition: border-color 0.2s ease;
+		transition: border-color 0.2s ease;
+		background-color: transparent;
+		/*border: solid 1px !important;*/
+		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-radius: 3em;
+
+		color: #ffffff !important;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.6em;
+		font-weight: bold;
+		
+		letter-spacing: 0.25em;
+		line-height: 3em;
+		outline: 0;
+		padding: 0 3.75em;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+  		border-radius: 100rem;
+  
   font-size: 1rem;
   padding: .5rem 3rem;
   color: $color-black;
@@ -1856,7 +1884,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), linear-gradient(150deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
   background-origin: border-box;
   background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px #000 inset;
+  box-shadow: 2px 200px 1px #000 inset;
 }
 
 
