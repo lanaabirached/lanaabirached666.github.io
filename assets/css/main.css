@@ -113,9 +113,9 @@ input, select, textarea {
 
 body {
 		/*background: #12045b;*/
-		background: #860029;
+		/*background: #860029;*/
+		background: #000000;
 	}
-
 	
 
 /* Type */
@@ -1828,60 +1828,43 @@ body {
 	input[type="reset"],
 	input[type="button"],
 	button,
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: border-color 0.2s ease;
-		-webkit-transition: border-color 0.2s ease;
-		-ms-transition: border-color 0.2s ease;
-		transition: border-color 0.2s ease;
-		background-color: transparent;
-		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
-		border-radius: 3em;
-		color: #ffffff !important;
-		cursor: pointer;
-		display: inline-block;
-		font-size: 0.6em;
-		font-weight: bold;
-		height: calc(4.75em + 2px);
-		letter-spacing: 0.25em;
-		line-height: 4.75em;
-		outline: 0;
-		padding: 0 3.75em;
-		position: relative;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		white-space: nowrap;
-	}
 
-		input[type="submit"]:after,
-		input[type="reset"]:after,
-		input[type="button"]:after,
-		button:after,
-		.button:after {
-			-moz-transform: scale(0.25);
-			-webkit-transform: scale(0.25);
-			-ms-transform: scale(0.25);
-			transform: scale(0.25);
-			pointer-events: none;
-			-moz-transition: opacity 0.2s ease, -moz-transform 0.2s ease;
-			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
-			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
-			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
-			border-radius: 3em;
-			content: '';
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
+
+/*.button {
+  
+  border: 3px;
+  border-style: solid;
+  border-color: transparent;
+  border-image-source: url(images/gradient2.svg);
+  border-image-repeat: stretch stretch;
+  border-image-slice: 70;
+  border-image-width: 100px;
+  border-image-outset: 10px;
+  padding: 16px 28px;
+  border-radius: 3em;
+ 
+}*/
+
+.button {
+  border-radius: 100rem;
+  padding: 1rem;
+  font-family: 'Avenir Next';
+  font-size: 1rem;
+  padding: .5rem 3rem;
+  color: $color-black;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), linear-gradient(150deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #000 inset;
+}
+
+
+
+
+
+
 
 		input[type="submit"].icon:before,
 		input[type="reset"].icon:before,
