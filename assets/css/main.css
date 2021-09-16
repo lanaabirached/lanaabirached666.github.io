@@ -1857,7 +1857,7 @@ body {
 
 		background-color: transparent;
 		border-color: rgba(255, 255, 255, 0.15) !important;
-		border-radius: 3em;
+		border-radius: 1em;
 
 		cursor: pointer;
 		display: inline-block;
@@ -1875,14 +1875,14 @@ body {
 		white-space: nowrap;
   		border-radius: 100rem;
 
-  		font-size: 1rem;
+  		font-size: 0.8rem;
   		padding: .5rem 3rem;
   		box-shadow: 0 0 6px 0 rgba(255, 0, 0, 0.5);
   		border: solid 3px transparent;
   		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), linear-gradient(150deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
   		background-origin: border-box;
   		background-clip: content-box, border-box;
-  		box-shadow: 2px 1000px 1px #000 inset;
+  		box-shadow: 2px 1000px 1px black inset;
 }
 
 .button:hover {
@@ -3281,11 +3281,11 @@ body {
 
 		.wrapper.style2 {
 			/*background-color: #B7999C;*/
-			background-color: #7a0025;
+			background-color: #101419;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #b80037;
+			background-color: #080A0C;
 		}
 
 		.wrapper.style2-alt2 {
@@ -3294,7 +3294,7 @@ body {
 		
 
 		.wrapper.style3 {
-			background-color: #63B0CD;
+			background-color: #990033;
 		}
 
 		.wrapper.style3-alt {
@@ -3532,6 +3532,7 @@ body {
 
 	#sidebar + #wrapper + #footer {
 		margin-left: 8em;
+		background-color: black
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3544,15 +3545,18 @@ body {
 
 	#footer > .inner a {
 		border-bottom-color: rgba(255, 255, 255, 0.5);
+
 	}
 
 		#footer > .inner a:hover {
 			border-bottom-color: transparent;
+
 		}
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
 		color: rgba(255, 255, 255, 0.15);
+
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3777,7 +3781,7 @@ body {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.4);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3801,7 +3805,7 @@ body {
 			}
 
 			#sidebar nav a:before {
-				
+				opacity: 50%;
 				background-image: -moz-linear-gradient(to right, white, white);
 				background-image: -webkit-linear-gradient(to right, white, white);
 				background-image: -ms-linear-gradient(to right, white, white);
