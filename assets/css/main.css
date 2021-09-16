@@ -1805,7 +1805,7 @@ body {
 
 	.box {
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
+		/*border: solid 1px rgba(255, 255, 255, 0.15);*/
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -1854,8 +1854,8 @@ body {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
+
 		background-color: transparent;
-		/*border: solid 1px !important;*/
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
 
@@ -1875,20 +1875,18 @@ body {
 		white-space: nowrap;
   		border-radius: 100rem;
 
-  font-size: 1rem;
-  padding: .5rem 3rem;
-  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-  border: solid 3px transparent;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), linear-gradient(150deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px #000 inset;
+  		font-size: 1rem;
+  		padding: .5rem 3rem;
+  		box-shadow: 0 0 6px 0 rgba(255, 0, 0, 0.5);
+  		border: solid 3px transparent;
+  		background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), linear-gradient(150deg, rgba(255, 0, 0, 1), rgba(0, 0, 255, 1));
+  		background-origin: border-box;
+  		background-clip: content-box, border-box;
+  		box-shadow: 2px 1000px 1px #000 inset;
 }
 
 .button:hover {
-font-family: 'Courier';
-  box-shadow: none;
-  box-shadow: 1em 2em 1em #000 inset;
+  
   color: white;
 }
 
@@ -1966,7 +1964,8 @@ font-family: 'Courier';
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(0, 0, 255, 0.30) !important;
+			border: solid 3px white;
 		}
 
 			input[type="submit"]:hover:after,
